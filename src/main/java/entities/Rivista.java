@@ -2,10 +2,10 @@ package entities;
 
 import enums.Periodicità;
 
-public class Magazine extends Catalogo {
+public class Rivista extends Catalogo {
     private Periodicità periodicità;
 
-    public Magazine(String titolo, int annoPubblicazione, int numeroPagine, Periodicità periodicità) {
+    public Rivista(String titolo, int annoPubblicazione, int numeroPagine, Periodicità periodicità) {
         super(titolo, annoPubblicazione, numeroPagine);
         this.periodicità = periodicità;
     }
